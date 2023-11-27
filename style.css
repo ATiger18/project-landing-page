@@ -1,3 +1,160 @@
 body{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.header{
+    display: flex;
+    background-color: #1f2937;
+    flex-direction: row;
+    justify-content: space-between;
+
+    font-size: 24px;
+    font-weight:bold;
+    color: #E5E7EB;
     
+}
+
+
+ol{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.card-1{
+    background-color: #1f2937;
+}
+
+.card-1-title{
+    font-size: 48px;
+    font-weight:bold;
+    color: #E5E7EB;
+}
+
+.card-1-subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.card-2{
+    display: flex;
+    margin: 0px;
+    padding: 10px;
+    justify-content: center;
+    
+}
+
+.card-2-title{
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1f2937;
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+    border-radius:4px;
+    border: #3882f6;
+    padding: 6px 12px;
+}
+
+.card-3{
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-3-image-1,
+.card-3-image-2,
+.card-3-image-3,
+.card-3-image-4{
+    display: flex;
+    flex-direction: column;
+    width: 75px;
+    height: 75px;
+    justify-content: space-between;
+    
+    
+}
+
+.card-3-image-1-subtext-1,
+.card-3-image-1-subtext-2,
+.card-3-image-1-subtext-3,
+.card-3-image-1-subtext-4{
+    display: flex;
+    flex-direction: row;
+    background-color: pink;
+    
+}
+
+.card-4{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote-testimonial{
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.card-4-author{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #1f2937;
+    font-size: 20px;
+}
+
+.card-5{
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    height:100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-5-sign-up{
+    font-weight: bold;
+}
+
+.card-5-sign-up,
+.card-5-sign-up-subtext,
+.sign-up-button{
+    
+    color: #E5E7EB;
+    background-color:#3882f6;
+    
+   
+
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    border: 2px red;
+    
+}
+
+.sign-up-button{
+    border: #E5E7EB;
+
+}
+
+.footer{
+    background-color: #1f2937;
+    color: #E5E7EB;
 }
